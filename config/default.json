@@ -1,0 +1,16 @@
+{
+  "trading": {
+    "capital": 10000,
+    "risk_per_trade": 0.01,
+    "max_positions": 10
+  },
+  "backtest": {
+    "initial_capital": 100000,
+    "commission": 0.001,
+    "slippage": 0.0005
+  },
+  "data": {
+    "provider": "yahoo_finance",
+    "interval": "1d"
+  }
+}
